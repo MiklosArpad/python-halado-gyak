@@ -22,6 +22,6 @@ def main_decorator(state):
 def form(password, email):
     return "Your password is strong and you have a valid email"
 
-print(form("zazi", "1234567"))
-print(form("zazi@mail.hu", "1234567"))
-print(form("zazi@mail.hu", "123"))
+print(form("1234567", "zazi"))
+print(form("134567", "zazi@mail.hu"))
+print(form("1234", "zazi@mail.hu"))
